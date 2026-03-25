@@ -19,12 +19,12 @@
 .button1, .button2, .button3, .button4{
 	background-color: white;
 	padding: 8px;
-	border-radius: 5px;
 	color: orangered;
+	border-radius: 5px;
 }
 
 .dropdown{
-	margin-left: 220px;
+	margin-left: 210px;
 }
 
 body{
@@ -47,10 +47,8 @@ body{
   background-attachment: fixed;
   background-color: rgba(1, 1, 1, 0.3); 
   background-blend-mode: overlay;
-  padding: 230px 20px;
+  padding: 230px;
   color: white;
-  margin: 20px;
-  border-radius: 10px;
   max-width: 100%;
 }
 
@@ -72,15 +70,15 @@ hr{
 }
 
 .description1 img{
-	width: 400px;
+	width: 350px;
 	max-width: 100%;
 	height: auto;
 	border-radius: 10px;
 }
 
 .description1 p{
-	padding: 70px;
-	font-size: 20px;
+	padding: 50px;
+	font-size: 15px;
 	background-color: #2E8B57;
 	border-radius: 5px;
 	margin: 15px;
@@ -88,6 +86,36 @@ hr{
 }
 
 .description1 h2{
+	font-size: 50px;
+	background-color: #2E8B57;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 15px;
+	color: white;
+}
+
+.description0{
+	display: flex;
+	gap: 5px;
+}
+
+.description0 img{
+	width: 350px;
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.description0 p{
+	padding: 50px;
+	font-size: 15px;
+	background-color: #2E8B57;
+	border-radius: 5px;
+	margin: 15px;
+	color: white;
+}
+
+.description0 h2{
 	font-size: 50px;
 	background-color: #2E8B57;
 	padding: 10px;
@@ -109,15 +137,15 @@ hr{
 }
 
 .description3 img{
-	width: 400px;
+	width: 350px;
 	max-width: 100%;
 	height: auto;
 	border-radius: 10px;
 }
 
 .description3 p{
-	padding: 70px;
-	font-size: 20px;
+	padding: 50px;
+	font-size: 15px;
 	background-color: #2E8B57;
 	border-radius: 5px;
 	margin: 15px;
