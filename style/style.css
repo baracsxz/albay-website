@@ -1,30 +1,39 @@
 .main-nav{
 	display: flex;
-	flex-wrap: wrap;	
-	padding: 10px 20px;
+	padding: 10px 15px;
 	background-color: #2E8B57;
-	margin: 0;
-	z-index: 1000;
 	position: sticky;
 	top: 0;
-	gap: 10px;
 	color: white;
+	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
 }
 
-#name{
-	margin-left: 750px;
+.nav-left{
+	display: flex;
+	align-items: center;
+	gap: 5px;
 }
 
-.button1, .button2, .button3, .button4{
+.dropdown select{
 	background-color: white;
-	padding: 8px;
+	padding: 6px;
 	color: orangered;
 	border-radius: 5px;
+	font-size: 14px;
 }
 
-.dropdown{
-	margin-left: 210px;
+.nav-right{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+#logo{
+	width: 120px;
+	height: auto;
 }
 
 body{
@@ -33,23 +42,28 @@ body{
 	font-family: Arial, sans-serif;
 }
 
-#logo{
-	width: 120px;
-	max-width: 100%;
-	height: auto;
-}
-
-.background {
+.background{
   background-image: url("../images/image1.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; 
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: rgba(1, 1, 1, 0.3); 
+  background-attachment: fixed; 
+  background-color: rgba(1, 1, 1, 0.3);
   background-blend-mode: overlay;
-  padding: 230px;
+
+  width: 100%;          
+  max-width: 100%;      
+  min-height: 650px;     
+  padding: 0;
+  margin: 0;
+
   color: white;
-  max-width: 100%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 hr{
@@ -64,48 +78,21 @@ hr{
 	padding: 20px;
 }
 
-.description1{
-	display: flex;
-	gap: 5px;
-}
-
-.description1 img{
-	width: 350px;
-	max-width: 100%;
-	height: auto;
-	border-radius: 10px;
-	border: 5px solid green;
-}
-
-.description1 p{
-	padding: 50px;
-	font-size: 15px;
-	background-color: #2E8B57;
-	border-radius: 5px;
-	margin: 15px;
-	color: white;
-}
-
-.description1 h2{
-	font-size: 50px;
-	background-color: #2E8B57;
-	padding: 10px;
-	border-radius: 5px;
-	margin: 15px;
-	color: white;
-}
-
 .description0{
 	display: flex;
 	gap: 5px;
 }
 
 .description0 img{
-	width: 350px;
-	max-width: 100%;
-	height: auto;
-	border-radius: 10px;
-	border: 5px solid green;
+  width: 100%;           
+  max-width: 350px;      
+  min-width: 250px;      
+  height: auto;          
+  border-radius: 10px;
+  border: 5px solid green;
+  display: block;        
+  margin: 20px auto;     
+  box-sizing: border-box; 
 }
 
 .description0 p{
@@ -118,6 +105,41 @@ hr{
 }
 
 .description0 h2{
+	font-size: 50px;
+	background-color: #2E8B57;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 15px;
+	color: white;
+}
+
+.description1{
+	display: flex;
+	gap: 5px;
+}
+
+.description1 img{
+  width: 100%;          
+  max-width: 350px;     
+  min-width: 250px;      
+  height: auto;          
+  border-radius: 10px;
+  border: 5px solid green;
+  display: block;        
+  margin: 20px auto;     
+  box-sizing: border-box; 
+}
+
+.description1 p{
+	padding: 50px;
+	font-size: 15px;
+	background-color: #2E8B57;
+	border-radius: 5px;
+	margin: 15px;
+	color: white;
+}
+
+.description1 h2{
 	font-size: 50px;
 	background-color: #2E8B57;
 	padding: 10px;
@@ -139,11 +161,15 @@ hr{
 }
 
 .description3 img{
-	width: 350px;
-	max-width: 100%;
-	height: auto;
-	border-radius: 10px;
-	border: 5px solid green;
+  width: 100%;           
+  max-width: 350px;      
+  min-width: 250px;      
+  height: auto;          
+  border-radius: 10px;
+  border: 5px solid green;
+  display: block;        
+  margin: 20px auto;     
+  box-sizing: border-box; 
 }
 
 .description3 p{
@@ -213,33 +239,51 @@ button{
 
 footer{
 	background-color: #2E8B57;
-	color:  white;
-	padding: 20px 10px;
-	align-content: center;
-	text-align: center;
-	position: relative;
-}
-
-a{
 	color: white;
+	padding: 10px 5px;
+	text-align: center;
 }
 
-a:hover{
+.footer-content p, .footer-content a{
+	margin: 1px 0;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.footer-content a:hover{
 	color: lightgreen;
 }
 
-td{
-  width: 33.33%;
+.table-container {
+  width: 100%;
+  overflow-x: auto; 
+}
+
+table {
+  width: 100%;           
+  border-collapse: collapse;
+  table-layout: fixed;   
+}
+
+td {
+  width: 33.33%;         
   padding: 10px;
+  text-align: center;    
+  box-sizing: border-box;
 }
 
-td p{
-	font-size: 18px;
+td p {
+  font-size: 16px;      
+  margin: 0;
 }
 
-table h2{
-	background-color: #2E8B57;
-	padding: 5px;
-	text-align: center;
-	color: white;
+table h2 {
+  background-color: #2E8B57;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;       
+  border-radius: 5px;
+  margin: 0;
 }
