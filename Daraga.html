@@ -1,78 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Daraga Church</title>
-	<link rel="stylesheet" href="style\style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Daraga Church</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-<nav class="main-nav">	
-	<img src="images\logo.png" alt="Province Logo" id="logo">
-	<h1>PROVINCE OF ALBAY<br>REGION V - BICOL</h1>
-	<h2 id="name">DARAGA CHURCH</h2>
+<nav class="navbar navbar-expand-lg navbar-dark sp-navbar sticky-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="images/logo.png" alt="Logo" style="width: 70px; margin-right: 12px;">
+            PROVINCE OF ALBAY<br>REGION V - BICOL
+        </a>
+        <div class="ms-auto d-none d-sm-block">
+            <span class="text-white opacity-75">Cultural Treasure</span>
+        </div>
+    </div>
 </nav>
 
-<div class="row1">
-	<div class="description1">
-		<img src="images\daraga1.jpg" alt="Albay Picture">
-		<center>
-		<h2>ABOUT THE DARAGA CHURCH</h2>
-		<p>Daraga Church is a historic church with beautiful Spanish-era architecture. It is an important religious and cultural landmark in Albay. Visitors admire its design and location.</p>
-	</center>
-	</div>
-</div>
+<header class="sp-hero shadow-sm d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="display-3 fw-bold text-white mb-3 text-uppercase">Daraga Church</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="fs-5 text-white mb-4">
+                    A masterpiece of Spanish-era craftsmanship perched on a hill. Experience the sacred beauty 
+                    and historical grandeur of one of Albay's most cherished architectural gems.
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
 
-<div class="row3">
-	<div class="description3">
-		<img src="images\daraga3.jpg" alt="Albay Picture">
-		<center>
-		<h2>HISTORY OF THE DARAGA CHURCH</h2>
-		<p>The church was built in 1773 by Franciscan missionaries. It has survived natural disasters and remains standing today. It is now recognized as a National Cultural Treasure.</p>
-	</center>
-	</div>
-</div>
-
-<hr>
-
-<center>
-<table>
-  <tr>
-    <td>
-    	<h2>FACTS</h2>
-		<p>- Built in 1773</p>
-		<p>- National Cultural Treasure</p> 
-		<p>- Located in Daraga</p> 
-		<p>- Overlooks Mayon Volcano</p>
-    </td>
-    <td>
-    	<h2>TRAVEL TIPS</h2>
-    	<p>- Dress modestly</p> 
-    	<p>- Visit during morning</p> 
-    	<p>- Respect church rules</p> 
-    	<p>- Keep noise low</p>
-    <td>
-    	<h2>GUIDE</h2>
-    <p>- Observe the architecture</p> 
-    <p>- Take photos of the view</p> 
-    <p>- Learn its history</p> 
-    <p>- Attend mass if possible</p> 
-    </td>
-  </tr>
-</table>
-</center>
-
- <center><a href="index.html">
-		<button>Go back to Home Page</button>
-	</a></center>
 <br>
 
-<footer>
-	© 2026 Mag-eksplorar asin mag-enjoy! All rights reserved. 
-	<a href="https://www.facebook.com/albaytourism" target="_blank">Visit us on Facecbook!</a>
-  	| <a href="https://albay.gov.ph/" target="_blank">Albay Government</a>
+<main class="container">
+    
+    <div class="row g-4 align-items-center mb-5">
+        <div class="col-md-6">
+            <img src="images/daraga1.jpg" class="sp-feature-img shadow-sm" alt="Daraga Church Exterior">
+            <h2 class="sp-section-title">ABOUT THE CHURCH</h2>
+            <p class="mt-3 leading-relaxed text-secondary">Daraga Church is a historic landmark featuring unique Baroque architecture. Located atop a hill, it offers a commanding view of the surrounding landscape and Mayon Volcano. It remains a vital religious and cultural center for the Bicolano community.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/daraga3.jpg" class="sp-feature-img shadow-sm" alt="Detailed Facade">
+            <h2 class="sp-section-title">CENTURIES OF HISTORY</h2>
+            <p class="mt-3 leading-relaxed text-secondary">Built in 1773 by Franciscan missionaries, the church was intended as a refuge for those displaced by Mayon's eruptions. Having survived centuries of natural disasters and wars, it is now officially recognized as a National Cultural Treasure of the Philippines.</p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">FACTS</h3>
+                <p class="small text-muted mb-3">Historical and geographical data.</p>
+                <ul class="list-group list-group-flush text-start">
+                    <li class="list-group-item"><strong>Year Built:</strong> 1773</li>
+                    <li class="list-group-item"><strong>Status:</strong> National Cultural Treasure</li>
+                    <li class="list-group-item"><strong>Location:</strong> Santa Maria Hill, Daraga</li>
+                    <li class="list-group-item"><strong>Style:</strong> Mexican Baroque</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">TRAVEL TIPS</h3>
+                <p class="small text-muted mb-3">Etiquette for visiting a sacred site.</p>
+                <ul class="list-group list-group-flush text-start">
+                    <li class="list-group-item">👗 <strong>Attire:</strong> Please dress modestly (no short shorts/tank tops).</li>
+                    <li class="list-group-item">🤫 <strong>Silence:</strong> Keep noise levels low during visits.</li>
+                    <li class="list-group-item">☀️ <strong>Timing:</strong> Morning visits offer the best light for photos.</li>
+                    <li class="list-group-item">⛪ <strong>Respect:</strong> Be mindful of ongoing masses or services.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">THINGS TO DO</h3>
+                <p class="small text-muted mb-3">Make the most of your cultural visit.</p>
+                <div class="mt-3">
+                    <span class="badge bg-success m-1 p-2">Architecture Study</span>
+                    <span class="badge bg-success m-1 p-2">Photography</span>
+                    <span class="badge bg-success m-1 p-2">Attend Mass</span>
+                    <span class="badge bg-success m-1 p-2">Hillside View</span>
+                    <span class="badge bg-success m-1 p-2">Prayer</span>
+                </div>
+                <p class="mt-4 small">Take a moment to look at the <strong>volcanic stone facade</strong>—it's carved from local rocks!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="index.html" class="btn btn-success btn-lg px-5 shadow-sm" style="background-color: #2E8B57;">
+            Return to Main Gallery
+        </a>
+    </div>
+
+</main>
+
+<footer class="py-5 mt-5" style="background-color: #2E8B57; color: white;">
+    <div class="container text-center">
+        <p class="mb-1">© 2026 Mag-eksplorar asin mag-enjoy! All rights reserved.</p>
+        <p class="text-white-50 small mb-3">Explore Albay's breathtaking natural wonders, vibrant culture, and delicious cuisine.</p>
+        <div class="mt-3">
+            <a href="https://www.facebook.com/albaytourism" class="btn btn-outline-light btn-sm mx-1" target="_blank">Facebook</a>
+            <a href="https://albay.gov.ph/" class="btn btn-outline-light btn-sm mx-1" target="_blank">Albay Gov</a>
+            <a href="https://www.philippines.travel/" class="btn btn-outline-light btn-sm mx-1" target="_blank">Tourism PH</a>
+        </div>
+    </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

@@ -1,78 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Misibis Adventure Park</title>
-	<link rel="stylesheet" href="style\style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Misibis Adventure Park - Albay Tourism</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-<nav class="main-nav">	
-	<img src="images\logo.png" alt="Province Logo" id="logo">
-	<h1>PROVINCE OF ALBAY<br>REGION V - BICOL</h1>
-	<h2 id="name">MISIBIS ADVENTURE<br>PARK</h2>
+<nav class="navbar navbar-expand-lg navbar-dark sp-navbar sticky-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="images/logo.png" alt="Logo" style="width: 70px; margin-right: 12px;">
+            PROVINCE OF ALBAY<br>REGION V - BICOL
+        </a>
+        <div class="ms-auto d-none d-sm-block">
+            <span class="text-white opacity-75">Adventure Hub</span>
+        </div>
+    </div>
 </nav>
 
-<div class="row1">
-	<div class="description1">
-		<img src="images\misibis3.jpg" alt="Albay Picture">
-		<center>
-		<h2>ABOUT MISIBIS ADVENTURE PARK</h2>
-		<p>Misibis Adventure Park offers exciting outdoor activities like ATV rides and ziplining. It is perfect for adventure seekers. Visitors enjoy fun and thrilling experiences here.</p>
-	</center>
-	</div>
-</div>
+<header class="sp-hero shadow-sm d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="display-3 fw-bold text-white mb-3 text-uppercase">Misibis Adventure Park</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="fs-5 text-white mb-4">
+                    Fuel your adrenaline on Cagraray Island. From rugged ATV trails to soaring ziplines, 
+                    this is where world-class luxury meets heart-pounding outdoor adventure.
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
 
-<div class="row3">
-	<div class="description3">
-		<img src="images\misibis4.png" alt="Albay Picture">
-		<center>
-		<h2>HISTORY OF MISIBIS ADVENTURE PARK</h2>
-		<p>The park was developed as part of the Misibis Bay resort expansion. It was created to provide more activities for tourists. Today, it is a popular adventure destination.</p>
-	</center>
-	</div>
-</div>
-
-<hr>
-
-<center>
-<table>
-  <tr>
-    <td>
-    	<h2>FACTS</h2>
-		<p>- ATV rides</p> 
-		<p>- Zipline</p> 
-		<p>- Near Misibis Bay</p> 
-		<p>- Family-friendly</p>
-    </td>
-    <td>
-    	<h2>TRAVEL TIPS</h2>
-    	<p>- Wear proper outfit</p> 
-    	<p>- Follow rules</p> 
-    	<p>- Book early</p> 
-    	<p>- Bring extra clothes</p>
-    <td>
-    	<h2>GUIDE</h2>
-			<p>- Ride ATV</p> 
-			<p>- Try zipline</p> 
-			<p>- Take photos</p> 
-			<p>- Enjoy activities</p>
-    </td>
-  </tr>
-</table>
-</center>
-
- <center><a href="index.html">
-		<button>Go back to Home Page</button>
-	</a></center>
 <br>
 
-<footer>
-	© 2026 Mag-eksplorar asin mag-enjoy! All rights reserved. 
-	<a href="https://www.facebook.com/albaytourism" target="_blank">Visit us on Facecbook!</a>
-  	| <a href="https://albay.gov.ph/" target="_blank">Albay Government</a>
+<main class="container">
+    
+    <div class="row g-4 align-items-center mb-5">
+        <div class="col-md-6">
+            <img src="images/misibis3.jpg" class="sp-feature-img shadow-sm" alt="ATV Adventure">
+            <h2 class="sp-section-title">ABOUT THE ADVENTURE PARK</h2>
+            <p class="mt-3 leading-relaxed text-secondary">Misibis Adventure Park offers a wide array of exciting outdoor activities designed for thrill-seekers. Whether you're navigating the volcanic terrain on an ATV or flying across the canopy on a zipline, the park provides a safe yet exhilarating environment for visitors of all ages.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/misibis4.png" class="sp-feature-img shadow-sm" alt="Zipline View">
+            <h2 class="sp-section-title">ORIGIN & GROWTH</h2>
+            <p class="mt-3 leading-relaxed text-secondary">Originally developed as an extension of the luxury Misibis Bay resort, the Adventure Park was created to transform the island into a full-service tourism destination. Today, it stands as a separate highlight, known for its unique trails and professional-grade outdoor facilities.</p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">FACTS</h3>
+                <p class="small text-muted mb-3">Essentials for your island adventure.</p>
+                <ul class="list-group list-group-flush text-start">
+                    <li class="list-group-item"><strong>Activities:</strong> ATV, Zipline, Dune Buggy</li>
+                    <li class="list-group-item"><strong>Location:</strong> Near Misibis Bay Resort</li>
+                    <li class="list-group-item"><strong>Accessibility:</strong> Island-based Adventure</li>
+                    <li class="list-group-item"><strong>Target:</strong> Family & Group Friendly</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">TRAVEL TIPS</h3>
+                <p class="small text-muted mb-3">How to prepare for the thrills.</p>
+                <ul class="list-group list-group-flush text-start">
+                    <li class="list-group-item">👕 <strong>Outfit:</strong> Wear activewear and closed shoes.</li>
+                    <li class="list-group-item">🧤 <strong>Safety:</strong> Always follow the guide’s instructions.</li>
+                    <li class="list-group-item">🎟️ <strong>Booking:</strong> Recommended to book activities early.</li>
+                    <li class="list-group-item">🎒 <strong>Extras:</strong> Bring extra clothes for after the trails.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">THINGS TO DO</h3>
+                <p class="small text-muted mb-3">Maximize your adrenaline rush.</p>
+                <div class="mt-3">
+                    <span class="badge bg-success m-1 p-2">ATV Riding</span>
+                    <span class="badge bg-success m-1 p-2">Ziplining</span>
+                    <span class="badge bg-success m-1 p-2">Trail Sightseeing</span>
+                    <span class="badge bg-success m-1 p-2">Nature Photography</span>
+                    <span class="badge bg-success m-1 p-2">Dune Buggy</span>
+                </div>
+                <p class="mt-4 small">Don't forget to <strong>mount your GoPro</strong> on your helmet for the best action shots!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="index.html" class="btn btn-success btn-lg px-5 shadow-sm" style="background-color: #2E8B57;">
+            Return to Main Gallery
+        </a>
+    </div>
+
+</main>
+
+<footer class="py-5 mt-5" style="background-color: #2E8B57; color: white;">
+    <div class="container text-center">
+        <p class="mb-1">© 2026 Mag-eksplorar asin mag-enjoy! All rights reserved.</p>
+        <p class="text-white-50 small mb-3">Explore Albay's breathtaking natural wonders, vibrant culture, and delicious cuisine.</p>
+        <div class="mt-3">
+            <a href="https://www.facebook.com/albaytourism" class="btn btn-outline-light btn-sm mx-1" target="_blank">Facebook</a>
+            <a href="https://albay.gov.ph/" class="btn btn-outline-light btn-sm mx-1" target="_blank">Albay Gov</a>
+            <a href="https://www.philippines.travel/" class="btn btn-outline-light btn-sm mx-1" target="_blank">Tourism PH</a>
+        </div>
+    </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

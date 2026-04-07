@@ -1,78 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Camalig Hot Springs</title>
-	<link rel="stylesheet" href="style\style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Camalig Hot Springs</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-<nav class="main-nav">	
-	<img src="images\logo.png" alt="Province Logo" id="logo">
-	<h1>PROVINCE OF ALBAY<br>REGION V - BICOL</h1>
-	<h2 id="name">CAMALIG HOT<br>SPRINGS</h2>
+<nav class="navbar navbar-expand-lg navbar-dark sp-navbar sticky-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="images/logo.png" alt="Logo" style="width: 70px; margin-right: 12px;">
+            PROVINCE OF ALBAY<br>REGION V - BICOL
+        </a>
+        <div class="ms-auto d-none d-sm-block">
+            <span class="text-white opacity-75">Wellness & Relaxation</span>
+        </div>
+    </div>
 </nav>
 
-<div class="row1">
-	<div class="description1">
-		<img src="images\camalig1.jpg" alt="Albay Picture">
-		<center>
-		<h2>ABOUT CAMALIG HOT SPRINGS</h2>
-		<p>Camalig Hot Springs is a relaxing place with natural warm water. It is ideal for отдыха and stress relief. Visitors enjoy its calm environment.</p>
-	</center>
-	</div>
-</div>
+<header class="sp-hero shadow-sm d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="display-3 fw-bold text-white mb-3 text-uppercase">Camalig Hot Springs</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="fs-5 text-white mb-4">
+                    Rejuvenate your soul in the natural warmth of Albay. Powered by the volcanic heat of Mayon, 
+                    these springs offer a peaceful sanctuary for healing and stress relief.
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
 
-<div class="row3">
-	<div class="description3">
-		<img src="images\camalig2.jpg" alt="Albay Picture">
-		<center>
-		<h2>HISTORY OF CAMALIG HOTSPRINGS</h2>
-		<p>The hot springs are naturally formed from underground heat near Mayon Volcano. Locals have used them for relaxation for many years. It later became a tourist attraction.</p>
-	</center>
-	</div>
-</div>
-
-<hr>
-
-<center>
-<table>
-  <tr>
-    <td>
-    	<h2>FACTS</h2>
-	<p>- Natural spring</p> 
-	<p>- Warm water</p> 
-	<p>- Located in Camalig</p> 
-		<p>- Relaxing spot</p>
-    </td>
-    <td>
-    	<h2>TRAVEL TIPS</h2>
-    	<p>- Bring towel</p> 
-    	<p>- Visit night</p> 
-    	<p>- Don’t stay long</p> 
-    	<p>- Keep clean</p>
-    <td>
-    	<h2>GUIDE</h2>
-			<p>- Soak and relax</p> 
-			<p>- Enjoy view</p> 
-			<p>- Take photos</p> 
-			<p>- Rest well</p>
-    </td>
-  </tr>
-</table>
-</center>
-
- <center><a href="index.html">
-		<button>Go back to Home Page</button>
-	</a></center>
 <br>
 
-<footer>
-	© 2026 Mag-eksplorar asin mag-enjoy! All rights reserved. 
-	<a href="https://www.facebook.com/albaytourism" target="_blank">Visit us on Facecbook!</a>
-  	| <a href="https://albay.gov.ph/" target="_blank">Albay Government</a>
+<main class="container">
+    
+    <div class="row g-4 align-items-center mb-5">
+        <div class="col-md-6">
+            <img src="images/camalig1.jpg" class="sp-feature-img shadow-sm" alt="Hot Spring Pool">
+            <h2 class="sp-section-title">ABOUT THE SPRINGS</h2>
+            <p class="mt-3 leading-relaxed text-secondary">Camalig Hot Springs is a tranquil destination known for its therapeutic, naturally warm waters. It is the perfect spot for relaxation and physical recovery, drawing visitors who seek a quiet environment to unwind far from the city's hustle.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/camalig2.jpg" class="sp-feature-img shadow-sm" alt="Natural Spring Source">
+            <h2 class="sp-section-title">NATURAL ORIGINS</h2>
+            <p class="mt-3 leading-relaxed text-secondary">These springs are formed by geothermal heat from deep beneath the earth near Mayon Volcano. While locals have enjoyed these healing waters for generations, they have now become a popular choice for tourists seeking the natural wellness benefits of volcanic mineral water.</p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">FACTS</h3>
+                <p class="small text-muted mb-3">Essentials about the spring's nature.</p>
+                <ul class="list-group list-group-flush text-start">
+                    <li class="list-group-item"><strong>Type:</strong> Natural Geothermal Spring</li>
+                    <li class="list-group-item"><strong>Water Temp:</strong> Warm / Therapeutic</li>
+                    <li class="list-group-item"><strong>Location:</strong> Camalig, Albay</li>
+                    <li class="list-group-item"><strong>Vibe:</strong> Quiet & Restorative</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">TRAVEL TIPS</h3>
+                <p class="small text-muted mb-3">Maximize your comfort and safety.</p>
+                <ul class="list-group list-group-flush text-start">
+                    <li class="list-group-item">🧼 <strong>Essentials:</strong> Bring your own towel and toiletries.</li>
+                    <li class="list-group-item">🌙 <strong>Timing:</strong> Night visits are best for a cooler breeze.</li>
+                    <li class="list-group-item">⏱️ <strong>Soaking:</strong> Limit soak time to 15-20 mins per session.</li>
+                    <li class="list-group-item">♻️ <strong>Cleanliness:</strong> Please help keep the pools pristine.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="sp-info-card shadow-sm h-100">
+                <h3 class="fw-bold">THINGS TO DO</h3>
+                <p class="small text-muted mb-3">How to spend your relaxation day.</p>
+                <div class="mt-3">
+                    <span class="badge bg-success m-1 p-2">Thermal Soaking</span>
+                    <span class="badge bg-success m-1 p-2">Hydro-therapy</span>
+                    <span class="badge bg-success m-1 p-2">Nature Photography</span>
+                    <span class="badge bg-success m-1 p-2">Meditation</span>
+                    <span class="badge bg-success m-1 p-2">Rest & Recovery</span>
+                </div>
+                <p class="mt-4 small">After your soak, don't forget to try the famous <strong>Camalig Pinangat</strong> at the town center!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="index.html" class="btn btn-success btn-lg px-5 shadow-sm" style="background-color: #2E8B57;">
+            Return to Main Gallery
+        </a>
+    </div>
+
+</main>
+
+<footer class="py-5 mt-5" style="background-color: #2E8B57; color: white;">
+    <div class="container text-center">
+        <p class="mb-1">© 2026 Mag-eksplorar asin mag-enjoy! All rights reserved.</p>
+        <p class="text-white-50 small mb-3">Explore Albay's breathtaking natural wonders, vibrant culture, and delicious cuisine.</p>
+        <div class="mt-3">
+            <a href="https://www.facebook.com/albaytourism" class="btn btn-outline-light btn-sm mx-1" target="_blank">Facebook</a>
+            <a href="https://albay.gov.ph/" class="btn btn-outline-light btn-sm mx-1" target="_blank">Albay Gov</a>
+            <a href="https://www.philippines.travel/" class="btn btn-outline-light btn-sm mx-1" target="_blank">Tourism PH</a>
+        </div>
+    </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
